@@ -284,3 +284,47 @@ nav a {
 .boxes .box.a10 {
   background-color: dodgerblue;
 }
+#line {
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
+  padding: 10px;
+  display: inline-block;
+}
+.lining {
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
+  padding: 1%;
+}
+
+#margin {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.container .inside-container {
+  display: flex;
+  flex-direction: row;
+}
+.container .inside-container div {
+  padding: 3%;
+}
+
+.button a {
+  color: black;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 3%;
+  width: 40%;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 3%;
+  text-align: center;
+}
+
+.container .inside-container div img {
+  margin-bottom: 10px;
+}
+
+.about-page footer {
+  margin-top: 30px;
+}
